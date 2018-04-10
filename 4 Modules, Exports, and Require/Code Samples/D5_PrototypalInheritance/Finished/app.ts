@@ -22,8 +22,10 @@ console.log(jane.__proto__);
 console.log(john.__proto__ === jane.__proto__);
 console.log(john.__proto__ === jane.constructor.prototype);
 
-/* Compiles to: 
-var Person = /** @class */ (function () {
+/*********************************************************
+// Compiles to: 
+
+var Person = (function () {
     function Person(firstname, lastname) {
         this.firstname = firstname;
         this.lastname = lastname;
