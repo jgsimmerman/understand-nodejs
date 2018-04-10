@@ -1,3 +1,16 @@
+const firstname = 'Jane';
+
+(((lastname) => {
+
+	const firstname = 'John';
+	console.log(firstname);
+	console.log(lastname);
+	
+})('Doe'));
+
+console.log(firstname);
+
+/*
 var firstname = 'Jane';
 
 (function (lastname) {
@@ -9,3 +22,4 @@ var firstname = 'Jane';
 }('Doe'));
 
 console.log(firstname);
+*/
